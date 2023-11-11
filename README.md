@@ -32,6 +32,7 @@ count the number of all the blue widgets sold.
 
 ## Table of contents
 * [Required skills and knowledge to be a data engineer](#Required-skills-and-knowledge-to-be-a-data-engineer)
+* [Reference](#Reference)
   
 ## Required skills and knowledge to be a data engineer
 At the start of a data pipeline, data engineers need to know how to extract data from files
