@@ -31,8 +31,23 @@ region, extract the data, and load it into a data warehouse. From there, you cou
 count the number of all the blue widgets sold.
 
 ## Table of contents
-* [Building Our Data Engineering Infrastructure](#Building-Our-Data-Engineering-Infrastructure)
-* [Introduction to dlt](#Introduction-to-dlt)
-* [Features](#Features)
-* [Building data pipeline with dlt](#Building-data-pipeline-with-dlt)
-* [First pipeline](#First-pipeline)
+* [Required skills and knowledge to be a data engineer](#Required-skills-and-knowledge-to-be-a-data-engineer)
+  
+## Required skills and knowledge to be a data engineer
+At the start of a data pipeline, data engineers need to know how to extract data from files
+in different formats or different types of databases. This means data engineers need to
+know several languages used to perform many different tasks, such as SQL and Python.
+During the transformation phase of the data pipeline, data engineers need to be familiar
+with data modeling and structures. They will also need to understand the business and
+what knowledge and insight they are hoping to extract from the data because this will
+impact the design of the data models.
+The loading of data into the data warehouse means there needs to be a data warehouse
+with a schema to hold the data. This is also usually the responsibility of the data engineer.
+Data engineers will need to know the basics of data warehouse design, as well as the types
+of databases used in their construction.
+Lastly, the entire infrastructure that the data pipeline runs on could be the responsibility
+of the data engineer. They need to know how to manage Linux servers, as well as how
+to install and configure software such as Apache Airflow or NiFi. As organizations
+move to the cloud, the data engineer now needs to be familiar with spinning up the
+infrastructure on the cloud platform used by the organization – Amazon, Google Cloud
+Platform, or Azure.
